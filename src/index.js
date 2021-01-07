@@ -7,6 +7,12 @@ import Key from './key'
 import '../node_modules/bootstrap/dist/css/bootstrap.css'
 import Form from './Form'
 import Text from './Textarea';
+import NewForm from './Cform';
+import FormSubmit from './FormSubmit'
+import Ref from './Ref'
+import Callback from "./CallBackRef";
+import RefFunt from './refFunct'
+
 
 ReactDOM.render(
   <React.StrictMode>
@@ -14,7 +20,12 @@ ReactDOM.render(
     {/* <List_obj /> */}
     {/* <Key /> */}
     {/* <Form /> */}
-    <Text />
+    {/* <Text /> */}
+    {/* <NewForm /> */}
+    <FormSubmit />
+    <Ref />
+    {/* <Callback /> */}
+    <RefFunt />
   </React.StrictMode>,
   document.getElementById('root')
 );
