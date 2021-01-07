@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 
-export default class lifting_1 extends Component {
+export default class lifting_2 extends Component {
+
     render() {
         return (
             <div>
-                {this.props.name}
+                <h2>{this.props.number * 3}</h2>
             </div>
         )
     }

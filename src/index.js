@@ -12,6 +12,7 @@ import FormSubmit from './FormSubmit'
 import Ref from './Ref'
 import Callback from "./CallBackRef";
 import RefFunt from './refFunct'
+import Lifting from "./lifting";
 
 
 ReactDOM.render(
@@ -22,10 +23,11 @@ ReactDOM.render(
     {/* <Form /> */}
     {/* <Text /> */}
     {/* <NewForm /> */}
-    <FormSubmit />
-    <Ref />
+    {/* <FormSubmit /> */}
+    {/* <Ref /> */}
     {/* <Callback /> */}
-    <RefFunt />
+    {/* <RefFunt /> */}
+    <Lifting />
   </React.StrictMode>,
   document.getElementById('root')
 );
