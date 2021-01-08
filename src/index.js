@@ -15,6 +15,7 @@ import RefFunt from './refFunct'
 import Lifting from "./lifting";
 
 
+
 ReactDOM.render(
   <React.StrictMode>
     {/* <Listary /> */}
@@ -23,6 +24,10 @@ ReactDOM.render(
     {/* <Form /> */}
     {/* <Text /> */}
     {/* <NewForm /> */}
+    <FormSubmit />
+    <Ref />
+    {/* <Callback /> */}
+    <RefFunt />
     {/* <FormSubmit /> */}
     {/* <Ref /> */}
     {/* <Callback /> */}

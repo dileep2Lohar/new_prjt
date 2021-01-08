@@ -1,3 +1,6 @@
+
+
+// another file is lifting_1.jsx
 import React, { Component } from 'react'
 import Lifting_1 from './lifting_1'
 import Lifting_2 from './lifting_2'
